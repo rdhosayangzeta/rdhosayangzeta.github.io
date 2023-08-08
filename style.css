@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+}
+div *{
+    background-color: rgba(233, 214, 249, 0.149);
+}
+#container p{
+    color:blueviolet;
+    text-align: center;
+}
+#p1{
+    color: rgb(192, 126, 254);
+    background-color: rgb(61, 0, 118);
+    border: solid purple;
+    text-align: center;
+    font-size: 40px;
+}
+#p2{
+    border: solid rgb(93, 66, 120);
+    background-color: rgb(61, 0, 118);
+    text-align: center;
+    font-size: 40px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(208, 88, 255, 0.127);
+    height: 50px;
+}
+.item2{
+    display: flex;
+    height: 700px;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 70px;
+}
+.text1{
+    text-align: center;
+    font-size: 40px;
+}
+.tombol{
+    height: auto;
+    margin-top: 150px;
+    background-color: rgb(208, 0, 255);
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 210px;
+    transition: transform 0.2s;
+
+
+}
+.tombol:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 5px rgb(255, 149, 255);
+}
+#tombolteks{
+    color: rgba(255, 70, 255, 0.285);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.zeta:hover{
+    transform: scale(1.01);
+}
+#diskon p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.last-paragraph h2,h3{
+    text-align: center;
+}
